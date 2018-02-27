@@ -13,6 +13,7 @@ body{
 .header{ 
 background:#ffffff;
  border-bottom: 3px solid #cccccc;
+padding-right: 30px;
 }
 
 .content{
@@ -30,24 +31,28 @@ h1{
     width: 200px;
     height: auto;
     background-color:#4aaaa5;
-    color: #ffffff;;
+    color: #ffffff;
+    margin: 0;
+    
 }
 .nav{
-    padding-right: 15px;
     margin-left: 15px;
-    line-height: 18px;
+    padding-left:30px;
+    line-height: 30px;
     color: #999;
     text-decoration: none;
     border-left: 1px solid #efefef;
     float: right;
-    
 }
+  
+.nav a:first-child {
+    border-left: 0 none;
+  }
 .social{
     background: #ffffff;
     display: inline-block;
     margin-top: 30px;
     padding-bottom: 10px;
-    border: 1px solid #cccccc;
 }
 
 .social h2{
@@ -57,16 +62,38 @@ color: #4aaaa5;;
 font-size: 22px;
 }
 
-social a{
-    border-style: none;
 
-}
 .work{
     margin-bottom: 50px;
     margin-top: 30px;
     background-color: #ffffff;
 }
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+    margin:20px;
+  }
 
+.work h3{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px;
+    font-weight: 100px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: -60px;
+    z-index: 99;
+    position: absolute;
+    width: 87%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+.work2 {
+    padding-top: 82px;
+
+}
 content{
     background-color: #ffffff;
 }
